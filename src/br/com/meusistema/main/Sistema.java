@@ -6,14 +6,15 @@ public class Sistema{
         System.out.println("Iniciando o sistema...");
 
         Carro meuCarro = new Carro();
-        meuCarro.modelo = "Civic";
-        meuCarro.cor = "Prata";
-        meuCarro.velocidade = -500;
+        meuCarro.setModelo("Civic");
+        meuCarro.setCor("Prata");
+        meuCarro.setVelocidade(-500);
         meuCarro.buzinar();
 
         Carro outroCarro = new Carro();
-        outroCarro.modelo = "Gol";
-        outroCarro.cor = "Preto";
+        outroCarro.setModelo("Gol");
+        outroCarro.setCor("Preto");
+        outroCarro.setVelocidade(200);
         outroCarro.buzinar();
     }
 }
