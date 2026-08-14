@@ -8,6 +8,7 @@ public class Sistema{
         Carro meuCarro = new Carro();
         meuCarro.modelo = "Civic";
         meuCarro.cor = "Prata";
+        meuCarro.velocidade = -500;
         meuCarro.buzinar();
 
         Carro outroCarro = new Carro();
